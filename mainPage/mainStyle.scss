@@ -75,7 +75,7 @@ img {
             }
 
             .burger-icon {
-                font-size: 24px;
+                font-size: 40px;
                 cursor: pointer;
                 display: none;
             }
@@ -170,6 +170,7 @@ img {
 
                 img {
                     margin-top: 15px;
+                    margin-bottom: -3px;
                 }
             }
         }
@@ -403,6 +404,12 @@ img {
     }
 }
 
+@media (max-width: 940px) {
+    .recaster-block {
+        background-image: url('../assets/recaster-res-back.svg');
+    }
+}
+
 //third block
 
 .stuffonizer-block {
@@ -546,6 +553,10 @@ img {
         .image-block {
             width: 30%;
 
+            img {
+                margin-bottom: -3px;
+            }
+
             .unvisible {
                 display: none;
             }
@@ -554,7 +565,7 @@ img {
 
     @media (max-width: 940px) {
         .stuffonizer-block_content {
-            background-image: url(../assets/stuffonizer-back1.png);
+            background-image: url(../assets/stuf-back-res.svg);
             background-position: right bottom;
             background-repeat: no-repeat;
             padding: 0;
@@ -563,7 +574,7 @@ img {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
 
@@ -761,9 +772,10 @@ img {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
+            margin-bottom: 30px;
 
             .text-block {
                 width: auto;
@@ -823,6 +835,13 @@ img {
                 }
             }
         }
+    }
+}
+
+@media (max-width: 940px) {
+    .mapper-block {
+        background-image: url('../assets/map-res-back.svg');
+        background-position: 15% 95%;
     }
 }
 
@@ -928,21 +947,21 @@ img {
     @media (max-width: 940px) {
 
         .diary-block_content {
-
+            background-image: url(../assets/diary-res-back.svg);
+            background-position: 10% 33%;
+            background-repeat: no-repeat;
             padding: 0;
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
 
             .text-block {
-                background-image: url(../assets/diary-back.png);
-                background-position: right bottom;
-                background-repeat: no-repeat;
+                background-image: none;
                 width: auto;
                 display: flex;
                 flex-direction: column;
@@ -1086,6 +1105,7 @@ img {
             }
 
             .foot {
+                background-color: white;
                 margin-top: 220px;
                 max-width: 386px;
                 align-self: flex-end;
@@ -1125,16 +1145,19 @@ img {
     @media (max-width: 940px) {
 
         .fishurement-block_content {
-
+            background-image: url('../assets/fishu-res-back.svg');
+            background-position: 15% 83%;
+                background-repeat: no-repeat;
             padding: 0;
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
+            margin-bottom: 10px;
 
             .text-block {
                 background-image: none;
@@ -1321,8 +1344,8 @@ img {
     @media (max-width: 940px) {
 
         .converter-block_content {
-            background-image: url(../assets/converter-back2.png), ;
-            background-position: 35% top, left bottom;
+            background-image: url(../assets/conv-back-res.svg), ;
+            background-position: 80% top, left bottom;
             background-repeat: no-repeat;
             padding: 0;
             max-width: 1200px;
@@ -1330,7 +1353,7 @@ img {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
 
@@ -1536,13 +1559,13 @@ img {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding-top: 60px;
+            padding-top: 40px;
             padding-left: 16px;
             padding-right: 16px;
 
             .text-block {
-                background-image: url(../assets/about-back1.png);
-                background-position: right bottom;
+                background-image: url(../assets/about-res-back.svg);
+                background-position: 90% bottom;
                 background-repeat: no-repeat;
                 width: auto;
                 display: flex;
@@ -1579,8 +1602,8 @@ img {
 
 
                 .contacts {
-                    margin-top: 20px;
-                    margin-bottom: 30px;
+                    margin-top: 0;
+                    margin-bottom: 20px;
 
                     .contact {
                         display: flex;
@@ -1592,7 +1615,7 @@ img {
 
                         p {
                             margin-top: 10px;
-                            margin-bottom: 10px;
+                            margin-bottom: 5px;
                             font-size: 16px;
                             font-weight: 700;
                         }
@@ -1600,7 +1623,7 @@ img {
                 }
 
                 .messangers {
-                    margin-bottom: 50px;
+                    margin-bottom: 40px;
 
                     img {
                         margin-right: 5px;
