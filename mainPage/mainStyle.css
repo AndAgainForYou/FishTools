@@ -1,6 +1,6 @@
 @font-face {
   font-family: "OregonDry";
-  src: url("../assets/OregonDry.ttf.woff") format("woff");
+  src: url("../assets/OregonDry.ttf.woff") format("woff"), url("../assets/OregonDry.ttf.eot") format("eot"), url("../assets/OregonDry.ttf.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +11,7 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: "OregonDry", sans-serif;
+  font-family: sans-serif;
 }
 
 img {
@@ -1384,7 +1384,7 @@ img {
 }
 .footer-block .footer-block_content .first .logo .terms :nth-child(2) {
   cursor: auto;
-  margin: 5px 10px 0 10px;
+  margin: 2px 10px 0 10px;
   font-size: 18px;
 }
 .footer-block .footer-block_content .first .logo .up {
@@ -1524,7 +1524,7 @@ img {
     margin-right: 0;
   }
   .footer-block .footer-block_content .second .terms :nth-child(2) {
-    margin: 5px 10px 0 10px;
+    margin: 2px 10px 0 10px;
     font-size: 18px;
   }
 }/*# sourceMappingURL=mainStyle.css.map */
