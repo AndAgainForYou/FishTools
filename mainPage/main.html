@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./mainStyle.css" />
+    <link rel="icon" href="../assets/Exclude.png" sizes="any" type="image/svg+xml">
     <title>Document</title>
 </head>
 
 <body>
 
 
-    <div class="menu-block">
+    <div class="menu-block" id="menu">
         <div class="menu-block-container">
             <header class="main-header">
                 <div class="logo" onclick="location.href='https://fish.tools';"><img src="../assets/Exclude.png"></div>
                 <div class="burger-icon">&#9776;</div>
                 <nav class="menu">
                     <ul>
-                        <li>Recaster</li>
-                        <li>Stuffonizer</li>
-                        <li>Mapper</li>
-                        <li>Diary</li>
-                        <li>Fishurement</li>
-                        <li>Converter</li>
-                        <li>About us</li>
+                        <li onclick="location.href='#recaster';">Recaster</li>
+                        <li onclick="location.href='#stuffonizer';">Stuffonizer</li>
+                        <li onclick="location.href='#mapper';">Mapper</li>
+                        <li onclick="location.href='#diary';">Diary</li>
+                        <li onclick="location.href='#fishurement';">Fishurement</li>
+                        <li onclick="location.href='#converter';">Converter</li>
+                        <li onclick="location.href='#about';">About us</li>
                     </ul>
                 </nav>
                 <button class="btn">Download the application</button>
@@ -60,7 +61,7 @@
 
 
 
-    <div class="recaster-block">
+    <div class="recaster-block" id="recaster">
         <div class="recaster-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -103,7 +104,7 @@
     </div>
 
 
-    <div class="stuffonizer-block">
+    <div class="stuffonizer-block" id="stuffonizer">
         <div class="stuffonizer-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -157,7 +158,7 @@
     </div>
 
 
-    <div class="mapper-block">
+    <div class="mapper-block" id="mapper">
         <div class="mapper-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -211,7 +212,7 @@
     </div>
 
 
-    <div class="diary-block">
+    <div class="diary-block" id="diary">
         <div class="diary-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -232,7 +233,7 @@
     </div>
 
 
-    <div class="fishurement-block">
+    <div class="fishurement-block" id="fishurement">
         <div class="fishurement-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -266,7 +267,7 @@
 
 
 
-    <div class="converter-block">
+    <div class="converter-block" id="converter">
         <div class="converter-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -303,7 +304,7 @@
 
 
 
-    <div class="about-block">
+    <div class="about-block" id="about">
         <div class="about-block_content">
             <div class="text-block">
                 <div class="head-block">
@@ -364,22 +365,23 @@
                         <p onclick="location.href='https://fish.tools/term';">Term of use</p>
                     </div>
                     <div class="up">
-                        <img src="../assets/footer-up.svg">
+                        <img src="../assets/footer-up.svg" onclick="location.href='#menu';">
                     </div>
                 </div>
                 <div class="navigation">
                     <p>Navigation</p>
                     <div class="items">
                         <div>
-                            <p>Recaster</p>
-                            <p>Stuffonizer</p>
-                            <p>Mapper</p>
-                            <p>Diary</p>
+                            <p onclick="location.href='#recaster';">Recaster</p>
+                            <p onclick="location.href='#stuffonizer';">Stuffonizer</p>
+                            <p onclick="location.href='#mapper';">Mapper</p>
+                            <p onclick="location.href='#diary';">Diary</p>
+                          
                         </div>
                         <div>
-                            <p>Fishurement</p>
-                            <p>Converter</p>
-                            <p>About us</p>
+                            <p onclick="location.href='#fishurement';">Fishurement</p>
+                            <p onclick="location.href='#converter';">Converter</p>
+                            <p onclick="location.href='#about';">About us</p>
                         </div>
                     </div>
                 </div>
@@ -391,7 +393,7 @@
                     <img src="../assets/appstore.png" onclick="location.href='https://apps.apple.com/en/app/id1626481662';">
                 </div>
                 <div class="up">
-                    <img src="../assets/footer-up.svg">
+                    <img src="../assets/footer-up.svg" onclick="location.href='#menu';">
                 </div>
                 <div class="terms visible">
                     <p onclick="location.href='https://fish.tools/privacy';">Privacy Policy</p>

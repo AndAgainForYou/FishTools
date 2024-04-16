@@ -4,6 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -38,6 +42,7 @@ img {
   flex-direction: row;
 }
 .menu-block .menu-block-container .main-header .logo {
+  cursor: pointer;
   font-weight: bold;
 }
 .menu-block .menu-block-container .main-header .menu {
@@ -49,6 +54,7 @@ img {
   margin: 0;
 }
 .menu-block .menu-block-container .main-header .menu ul li {
+  cursor: pointer;
   display: inline-block;
   margin: 0 10px;
   font-weight: 400;
@@ -129,6 +135,9 @@ img {
 .menu-block .menu-block-container .menu-block_content .text-block .stores {
   margin-top: 60px;
 }
+.menu-block .menu-block-container .menu-block_content .text-block .stores img {
+  cursor: pointer;
+}
 .menu-block .menu-block-container .menu-block_content .text-block .stores img:nth-child(1) {
   margin-right: 40px;
 }
@@ -192,7 +201,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 40px;
+  padding-top: 40px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -592,7 +601,11 @@ img {
   font-weight: 600;
 }
 .mapper-block .mapper-block_content .image-block {
-  width: 30%;
+  width: auto;
+}
+.mapper-block .mapper-block_content .image-block img {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 .mapper-block .mapper-block_content .image-block .unvisible {
   display: none;
@@ -648,6 +661,7 @@ img {
   }
   .mapper-block .mapper-block_content .image-block img {
     display: none;
+    max-width: 100%;
   }
   .mapper-block .mapper-block_content .image-block .unvisible {
     display: flex;
@@ -737,6 +751,10 @@ img {
   width: 30%;
   margin-bottom: 40px;
 }
+.diary-block .diary-block_content .image-block img {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
 .diary-block .diary-block_content .image-block .unvisible {
   display: none;
 }
@@ -821,6 +839,7 @@ img {
   }
   .diary-block .diary-block_content .image-block img {
     display: none;
+    max-width: 100%;
   }
   .diary-block .diary-block_content .image-block .unvisible {
     display: flex;
@@ -840,7 +859,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 25px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -1186,6 +1205,7 @@ img {
   margin-bottom: 50px;
 }
 .about-block .about-block_content .text-block .messangers img {
+  cursor: pointer;
   margin-right: 5px;
 }
 .about-block .about-block_content .image-block {
@@ -1287,6 +1307,7 @@ img {
     margin-bottom: 40px;
   }
   .about-block .about-block_content .text-block .messangers img {
+    cursor: pointer;
     margin-right: 5px;
   }
   .about-block .about-block_content .image-block {
@@ -1348,6 +1369,9 @@ img {
   width: 51%;
   justify-content: space-between;
 }
+.footer-block .footer-block_content .first .logo img {
+  cursor: pointer;
+}
 .footer-block .footer-block_content .first .logo .terms {
   display: flex;
   align-items: center;
@@ -1355,9 +1379,11 @@ img {
   margin-bottom: 50px;
 }
 .footer-block .footer-block_content .first .logo .terms p {
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.7);
 }
 .footer-block .footer-block_content .first .logo .terms :nth-child(2) {
+  cursor: auto;
   margin: 5px 10px 0 10px;
   font-size: 18px;
 }
@@ -1375,6 +1401,7 @@ img {
   display: flex;
 }
 .footer-block .footer-block_content .first .navigation .items p {
+  cursor: pointer;
   color: white;
   font-size: 16px;
 }
@@ -1395,6 +1422,9 @@ img {
 }
 .footer-block .footer-block_content .second .up {
   padding-left: 30px;
+}
+.footer-block .footer-block_content .second .up img {
+  cursor: pointer;
 }
 @media (max-width: 940px) {
   .footer-block .footer-block_content {
@@ -1448,6 +1478,7 @@ img {
     display: flex;
   }
   .footer-block .footer-block_content .first .navigation .items p {
+    cursor: pointer;
     color: white;
     font-size: 16px;
   }
@@ -1472,6 +1503,7 @@ img {
     flex-wrap: wrap;
   }
   .footer-block .footer-block_content .second .messangers img {
+    cursor: pointer;
     margin-top: 20px;
   }
   .footer-block .footer-block_content .second :nth-child(1) {

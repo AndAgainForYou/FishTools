@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -43,6 +47,7 @@ img {
             flex-direction: row; // Set flex direction to row for horizontal layout
 
             .logo {
+                cursor: pointer;
                 font-weight: bold;
             }
 
@@ -56,6 +61,7 @@ img {
                     margin: 0;
 
                     li {
+                        cursor: pointer;
                         display: inline-block;
                         margin: 0 10px;
                         font-weight: 400;
@@ -158,8 +164,13 @@ img {
                 .stores {
                     margin-top: 60px;
 
+                    img {
+                        cursor: pointer;
+                    }
+
 
                     img:nth-child(1) {
+                        
                         margin-right: 40px;
                     }
                 }
@@ -243,7 +254,7 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 40px;
+        padding-top: 40px;
         padding-left: 16px;
         padding-right: 16px;
 
@@ -754,7 +765,11 @@ img {
         }
 
         .image-block {
-            width: 30%;
+            width: auto;
+
+            img {
+                max-width: fit-content;
+            }
 
             .unvisible {
                 display: none;
@@ -828,6 +843,7 @@ img {
 
                 img {
                     display: none;
+                    max-width: 100%;
                 }
 
                 .unvisible {
@@ -938,6 +954,10 @@ img {
             width: 30%;
             margin-bottom: 40px;
 
+            img {
+                max-width: fit-content;
+            }
+
             .unvisible {
                 display: none;
             }
@@ -1038,6 +1058,9 @@ img {
 
                 img {
                     display: none;
+                    
+                    max-width: 100%;
+                    
                 }
 
                 .unvisible {
@@ -1065,7 +1088,7 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 60px;
+        padding-top: 25px;
         padding-left: 16px;
         padding-right: 16px;
 
@@ -1496,6 +1519,7 @@ img {
                 margin-bottom: 50px;
 
                 img {
+                    cursor: pointer;
                     margin-right: 5px;
                 }
             }
@@ -1626,6 +1650,7 @@ img {
                     margin-bottom: 40px;
 
                     img {
+                        cursor: pointer;
                         margin-right: 5px;
                     }
                 }
@@ -1711,6 +1736,10 @@ img {
 
             .logo {
 
+                img {
+                    cursor: pointer;
+                }
+
                 .terms {
                     display: flex;
                     align-items: center;
@@ -1718,12 +1747,14 @@ img {
                     margin-bottom: 50px;
 
                     p {
+                        cursor: pointer;
                         color: rgba(255, 255, 255, 0.7);
 
 
                     }
 
                     :nth-child(2) {
+                        cursor: auto;
                         margin: 5px 10px 0 10px;
                         font-size: 18px;
                     }
@@ -1748,6 +1779,7 @@ img {
                     display: flex;
 
                     p {
+                        cursor: pointer;
                         color: white;
                         font-size: 16px;
                     }
@@ -1775,6 +1807,10 @@ img {
 
             .up {
                 padding-left: 30px;
+
+                img {
+                    cursor: pointer;
+                }
             }
         }
 
@@ -1835,6 +1871,7 @@ img {
                 .navigation {
 
                     p {
+                        
                         color: rgba(255, 255, 255, 0.7);
                         font-weight: 700;
                         font-size: 20px;
@@ -1843,9 +1880,12 @@ img {
                     }
 
                     .items {
-                        display: flex;
+                        display: flex; 
+
+                      
 
                         p {
+                            cursor: pointer;
                             color: white;
                             font-size: 16px;
                         }
@@ -1876,6 +1916,7 @@ img {
                     flex-wrap: wrap;
 
                     img {
+                        cursor: pointer;
                         margin-top: 20px;
                     }
 

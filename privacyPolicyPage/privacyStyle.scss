@@ -194,6 +194,10 @@ body {
 
             .logo {
 
+                img {
+                    cursor: pointer;
+                }
+
                 .terms {
                     display: flex;
                     align-items: center;
@@ -201,12 +205,14 @@ body {
                     margin-bottom: 50px;
 
                     p {
+                        cursor: pointer;
                         color: rgba(255, 255, 255, 0.7);
 
 
                     }
 
                     :nth-child(2) {
+                        cursor: auto;
                         margin: 5px 10px 0 10px;
                         font-size: 18px;
                     }
@@ -231,6 +237,7 @@ body {
                     display: flex;
 
                     p {
+                        cursor: pointer;
                         color: white;
                         font-size: 16px;
                     }
@@ -258,6 +265,10 @@ body {
 
             .up {
                 padding-left: 30px;
+
+                img {
+                    cursor: pointer;
+                }
             }
         }
 
@@ -318,6 +329,7 @@ body {
                 .navigation {
 
                     p {
+                        
                         color: rgba(255, 255, 255, 0.7);
                         font-weight: 700;
                         font-size: 20px;
@@ -326,9 +338,12 @@ body {
                     }
 
                     .items {
-                        display: flex;
+                        display: flex; 
+
+                      
 
                         p {
+                            cursor: pointer;
                             color: white;
                             font-size: 16px;
                         }
@@ -359,6 +374,7 @@ body {
                     flex-wrap: wrap;
 
                     img {
+                        cursor: pointer;
                         margin-top: 20px;
                     }
 

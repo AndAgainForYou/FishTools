@@ -149,6 +149,9 @@ body {
   width: 51%;
   justify-content: space-between;
 }
+.footer-block .footer-block_content .first .logo img {
+  cursor: pointer;
+}
 .footer-block .footer-block_content .first .logo .terms {
   display: flex;
   align-items: center;
@@ -156,9 +159,11 @@ body {
   margin-bottom: 50px;
 }
 .footer-block .footer-block_content .first .logo .terms p {
+  cursor: pointer;
   color: rgba(255, 255, 255, 0.7);
 }
 .footer-block .footer-block_content .first .logo .terms :nth-child(2) {
+  cursor: auto;
   margin: 5px 10px 0 10px;
   font-size: 18px;
 }
@@ -176,6 +181,7 @@ body {
   display: flex;
 }
 .footer-block .footer-block_content .first .navigation .items p {
+  cursor: pointer;
   color: white;
   font-size: 16px;
 }
@@ -196,6 +202,9 @@ body {
 }
 .footer-block .footer-block_content .second .up {
   padding-left: 30px;
+}
+.footer-block .footer-block_content .second .up img {
+  cursor: pointer;
 }
 @media (max-width: 940px) {
   .footer-block .footer-block_content {
@@ -249,6 +258,7 @@ body {
     display: flex;
   }
   .footer-block .footer-block_content .first .navigation .items p {
+    cursor: pointer;
     color: white;
     font-size: 16px;
   }
@@ -273,6 +283,7 @@ body {
     flex-wrap: wrap;
   }
   .footer-block .footer-block_content .second .messangers img {
+    cursor: pointer;
     margin-top: 20px;
   }
   .footer-block .footer-block_content .second :nth-child(1) {
