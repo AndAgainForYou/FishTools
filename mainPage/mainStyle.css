@@ -31,6 +31,7 @@ img {
   background-image: url("../assets/Main.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .menu-block .menu-block-container {
   padding: 0;
@@ -864,13 +865,11 @@ img {
   }
 }
 
-.fishurement-block {
+.fishurement-block .fishurement-block_content {
   background-color: white;
   background-image: url(../assets/fishurement-back.png);
-  background-position: right bottom;
+  background-position: 110% bottom;
   background-repeat: no-repeat;
-}
-.fishurement-block .fishurement-block_content {
   padding: 0;
   max-width: 1200px;
   margin: 0 auto;
