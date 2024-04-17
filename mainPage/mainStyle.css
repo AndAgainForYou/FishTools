@@ -1,6 +1,14 @@
 @font-face {
   font-family: "OregonDry";
-  src: url("../assets/OregonDry.ttf.woff") format("woff"), url("../assets/OregonDry.ttf.eot") format("eot"), url("../assets/OregonDry.ttf.svg") format("svg");
+  src: url("Supermolot.eot");
+  src: url("../assets/Supermolot.eot?#iefix") format("embedded-opentype"), url("../assets/Supermolot.woff") format("woff"), url("../assets/Supermolot.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Supermolot Bold";
+  src: url("../assets/Supermolot-Bold.eot");
+  src: url("../assets/Supermolot-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/Supermolot-Bold.woff") format("woff"), url("../assets/Supermolot-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +19,7 @@ html {
 body {
   margin: 0 auto;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "OregonDry";
 }
 
 img {
@@ -125,9 +133,10 @@ img {
 .menu-block .menu-block-container .menu-block_content .text-block h1 {
   font-size: 80px;
   font-weight: 700;
+  font-family: "Supermolot Bold";
 }
 .menu-block .menu-block-container .menu-block_content .text-block p {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   line-height: 25px;
@@ -221,6 +230,7 @@ img {
   margin-right: 20px;
 }
 .recaster-block .recaster-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -242,6 +252,7 @@ img {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.1);
 }
 .recaster-block .recaster-block_content .text-block .foot .foot-block .title {
+  font-family: "Supermolot Bold";
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -287,6 +298,7 @@ img {
     margin-right: 20px;
   }
   .recaster-block .recaster-block_content .text-block .head-block .head p {
+    font-family: "Supermolot Bold";
     font-size: 24px;
     font-weight: 700;
     margin: 0;
@@ -322,6 +334,7 @@ img {
   }
   .recaster-block .recaster-block_content .image-block .foot .foot-block .title {
     font-size: 16px;
+    font-family: "Supermolot Bold";
     font-weight: 700;
     margin: 0;
   }
@@ -372,6 +385,7 @@ img {
   margin-right: 20px;
 }
 .stuffonizer-block .stuffonizer-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -401,6 +415,7 @@ img {
   border-radius: 8px;
 }
 .stuffonizer-block .stuffonizer-block_content .text-block .foot_elements .foot .foot-block .title {
+  font-family: "Supermolot Bold";
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -548,6 +563,7 @@ img {
   height: 48px;
 }
 .mapper-block .mapper-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -708,6 +724,7 @@ img {
   margin-right: 20px;
 }
 .diary-block .diary-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -791,6 +808,7 @@ img {
     margin-right: 20px;
   }
   .diary-block .diary-block_content .text-block .head-block .head p {
+    font-family: "Supermolot Bold";
     font-size: 24px;
     font-weight: 700;
     margin: 0;
@@ -882,6 +900,7 @@ img {
   margin-right: 20px;
 }
 .fishurement-block .fishurement-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -905,6 +924,7 @@ img {
   box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.1);
 }
 .fishurement-block .fishurement-block_content .text-block .foot .foot-block .title {
+  font-family: "Supermolot Bold";
   font-size: 24px;
   font-weight: 700;
   margin: 0;
@@ -955,6 +975,7 @@ img {
     margin-right: 20px;
   }
   .fishurement-block .fishurement-block_content .text-block .head-block .head p {
+    font-family: "Supermolot Bold";
     font-size: 24px;
     font-weight: 700;
     margin: 0;
@@ -1039,6 +1060,7 @@ img {
   height: 48px;
 }
 .converter-block .converter-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -1114,6 +1136,7 @@ img {
     height: 48px;
   }
   .converter-block .converter-block_content .text-block .head-block .head p {
+    font-family: "Supermolot Bold";
     font-size: 24px;
     font-weight: 700;
     margin: 0;
@@ -1174,6 +1197,7 @@ img {
   height: 48px;
 }
 .about-block .about-block_content .text-block .head-block .head p {
+  font-family: "Supermolot Bold";
   font-size: 40px;
   font-weight: 700;
   margin: 0;
@@ -1196,6 +1220,7 @@ img {
   margin-right: 16px;
 }
 .about-block .about-block_content .text-block .contacts .contact p {
+  font-family: "Supermolot Bold";
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
